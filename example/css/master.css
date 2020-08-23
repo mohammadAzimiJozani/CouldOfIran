@@ -1,0 +1,157 @@
+
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Black.eot');
+    src: url('../fonts/Vazir-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vazir-Black.woff2') format('woff2'),
+    url('../fonts/Vazir-Black (2).woff') format('woff'),
+    url('../fonts/Vazir-Black (1).ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: Vazir1;
+    src: url('../fonts/Vazir-Bold.eot');
+    src: url('../fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vazir-Bold.woff2') format('woff2'),
+    url('../fonts/Vazir-Bold.woff') format('woff'),
+    url('../fonts/Vazir-Bold.ttf') format('truetype');
+    font-weight: 900;
+}
+@font-face {
+    font-family: farssiDigit;
+    src: url('../fonts/Vazir-Black-FD-WOL.woff');
+    src: url('../fonts/Vazir-Black-FD-WOL.woff') format('embedded-opentype'),
+    url('../fonts/Vazir-Black-FD-WOL.woff') format('woff2'),
+    url('../fonts/Vazir-Black-FD-WOL.woff') format('woff'),
+    url('../fonts/Vazir-Black-FD-WOL.woff') format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: farsiDigit;
+    src: url('../fonts/Vazir-Black-FD-WOL.woff2');
+    src: url('../fonts/Vazir-Black-FD-WOL.woff2') format('embedded-opentype'),
+    url('../fonts/Vazir-Black-FD-WOL.woff2') format('woff2'),
+    url('../fonts/Vazir-Black-FD-WOL.woff2') format('woff'),
+    url('../fonts/Vazir-Black-FD-WOL.woff2') format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: farsiDigit;
+    src: url('../fonts/Vazir-Bold-FD-WOL.woff');
+    src: url('../fonts/Vazir-Bold-FD-WOL.woff') format('embedded-opentype'),
+    url('../fonts/Vazir-Bold-FD-WOL.woff') format('woff2'),
+    url('../fonts/Vazir-Bold-FD-WOL.woff') format('woff'),
+    url('../fonts/Vazir-Bold-FD-WOL.woff') format('truetype');
+    font-weight: bold;
+}
+/*@font-face {*/
+/*    font-family: farsiDigit;*/
+/*    src: url('../fonts/Vazir-Bold-FD-WOL.woff2');*/
+/*    src: url('../fonts/Vazir-Bold-FD-WOL.woff2') format('embedded-opentype'),*/
+/*    url('../fonts/Vazir-Bold-FD-WOL.woff2') format('woff2'),*/
+/*    url('../fonts/Vazir-Bold-FD-WOL.woff2') format('woff'),*/
+/*    url('../fonts/Vazir-Bold-FD-WOL.woff2') format('truetype');*/
+/*    font-weight: bold;*/
+/*}*/
+@font-face {
+    font-family: farsiDigit;
+    src: url('../fonts/Vazir-Light-FD.woff');
+    src: url('../fonts/Vazir-Light-FD.woff') format('embedded-opentype'),
+    url('../fonts/Vazir-Light-FD.woff') format('woff'),
+    url('../fonts/Vazir-Light-FD.woff') format('woff'),
+    url('../fonts/Vazir-Light-FD.woff') format('truetype');
+    font-weight: bold;
+}
+body{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: Vazir1;
+}
+.main{
+    width: 100%;
+    background: #2B2B2B;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-container0{
+    /*width: 40%;*/
+    display: flex;
+    align-items: center;
+    height: 80px;
+    /*border: 1px solid blue;*/
+    justify-content: flex-start;
+}
+.flex-item0{
+    /*border: 1px solid orangered;*/
+    /*height: 80px;*/
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+
+}
+.flex-item0:nth-child(1){
+    font-size: 28px;
+    color: #FCCD33;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+
+}
+.flex-item0:nth-child(2){
+    color: #FCCD33;
+    font-size: 28px;
+    margin-right: 5px;
+}
+.flex-item0:nth-child(3){
+    margin-right: 50px;
+    font-size: 18px;
+    color: white;
+}
+.flex-container1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 80px;
+    /*border: 1px solid #ee00ff;*/
+
+}
+.flex-item1{
+    /*border: 1px solid #6f42c1;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 10px;
+}
+
+.flex-item1:nth-child(1){
+    color: #FCCD33;
+    font-size: 18px;
+}
+.flex-item1:nth-child(2){
+    font-family: Vazir1;
+    width: 194px;
+    height: 50px;
+    background: #FCCD33;
+    box-shadow: 0px 20px 25px rgba(252, 205, 51, 0.1);
+    border: 1px solid #FCCD33;
+    border-radius: 52px;
+    color: #292929;
+}
+.flex-item1:nth-child(3){
+    height: 39px;
+    border: 1px solid #747474;
+}
+.flex-item1:nth-child(4){
+    color: #EBEBEB;
+    font-weight: bold;
+    font-size: 18px;
+}
+.farsiDigit{
+    font-family: farsiDigit;
+}
+
+
