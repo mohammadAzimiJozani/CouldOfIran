@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?pkpdnf');
-  src:  url('../fonts/icomoon.eot?pkpdnf#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?pkpdnf') format('truetype'),
-    url('../fonts/icomoon.woff?pkpdnf') format('woff'),
-    url('../fonts/icomoon.svg?pkpdnf#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?ytbc2t');
+  src:  url('../fonts/icomoon.eot?ytbc2t#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?ytbc2t') format('truetype'),
+    url('../fonts/icomoon.woff?ytbc2t') format('woff'),
+    url('../fonts/icomoon.svg?ytbc2t#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,23 +25,45 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-egg:before {
+.icon-15758347661535958153:before {
+  content: "\e908";
+}
+.icon-4677689611595234894:before {
+  content: "\e90a";
+}
+.icon-14163220701548233621:before {
   content: "\e900";
 }
-.icon-wallet:before {
+.icon-7242953181586787868:before {
   content: "\e901";
 }
-.icon-coin:before {
-  content: "\e902";
-}
-.icon-brainstorm:before {
+.icon-19047501981578982961:before {
   content: "\e903";
 }
-.icon-user:before {
+.icon-3581263791586787809:before {
   content: "\e904";
 }
-.icon-internet:before {
+.icon-20560132991579605529:before {
   content: "\e905";
+}
+.icon-15730011341579252549:before {
+  content: "\e906";
+  color: #4e4f50;
+}
+.icon-21131386491553230905:before {
+  content: "\e907";
+}
+.icon-egg:before {
+  content: "\e909";
+}
+.icon-home3:before {
+  content: "\e902";
+}
+.icon-coin-dollar:before {
+  content: "\e93b";
+}
+.icon-credit-card:before {
+  content: "\e93f";
 }
 .icon-menu3:before {
   content: "\e9bf";
