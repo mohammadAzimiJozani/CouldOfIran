@@ -1,11 +1,11 @@
 
 @font-face {
-    font-family: Vazir;
-    src: url('../fonts/Vazir-Black.eot');
-    src: url('../fonts/Vazir-Black.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Vazir-Black.woff2') format('woff2'),
-    url('../fonts/Vazir-Black (2).woff') format('woff'),
-    url('../fonts/Vazir-Black (1).ttf') format('truetype');
+    font-family: VazirThin;
+    src: url('../fonts/Vazir-Thin-FD.woff2');
+    src: url('../fonts/Vazir-Thin-FD.woff2') format('embedded-opentype'),
+    url('../fonts/Vazir-Thin-FD.woff2') format('woff2'),
+    url('../fonts/Vazir-Thin-FD.woff2') format('woff'),
+    url('../fonts/Vazir-Thin-FD.woff2') format('truetype');
     font-weight: normal;
 }
 @font-face {
@@ -18,41 +18,14 @@
     font-weight: 900;
 }
 @font-face {
-    font-family: farssiDigit;
-    src: url('../fonts/Vazir-Black-FD-WOL.woff');
-    src: url('../fonts/Vazir-Black-FD-WOL.woff') format('embedded-opentype'),
-    url('../fonts/Vazir-Black-FD-WOL.woff') format('woff2'),
-    url('../fonts/Vazir-Black-FD-WOL.woff') format('woff'),
-    url('../fonts/Vazir-Black-FD-WOL.woff') format('truetype');
-    font-weight: bold;
+    font-family: VazirMedium;
+    src: url('../fonts/Vazir-Medium-FD.woff');
+    src: url('../fonts/Vazir-Medium-FD.woff') format('embedded-opentype'),
+    url('../fonts/Vazir-Medium-FD.woff') format('woff2'),
+    url('../fonts/Vazir-Medium-FD.woff') format('woff'),
+    url('../fonts/Vazir-Medium-FD.woff') format('truetype');
+    font-weight: 900;
 }
-@font-face {
-    font-family: farsiDigit;
-    src: url('../fonts/Vazir-Black-FD-WOL.woff2');
-    src: url('../fonts/Vazir-Black-FD-WOL.woff2') format('embedded-opentype'),
-    url('../fonts/Vazir-Black-FD-WOL.woff2') format('woff2'),
-    url('../fonts/Vazir-Black-FD-WOL.woff2') format('woff'),
-    url('../fonts/Vazir-Black-FD-WOL.woff2') format('truetype');
-    font-weight: bold;
-}
-@font-face {
-    font-family: farsiDigit;
-    src: url('../fonts/Vazir-Bold-FD-WOL.woff');
-    src: url('../fonts/Vazir-Bold-FD-WOL.woff') format('embedded-opentype'),
-    url('../fonts/Vazir-Bold-FD-WOL.woff') format('woff2'),
-    url('../fonts/Vazir-Bold-FD-WOL.woff') format('woff'),
-    url('../fonts/Vazir-Bold-FD-WOL.woff') format('truetype');
-    font-weight: bold;
-}
-/*@font-face {*/
-/*    font-family: farsiDigit;*/
-/*    src: url('../fonts/Vazir-Bold-FD-WOL.woff2');*/
-/*    src: url('../fonts/Vazir-Bold-FD-WOL.woff2') format('embedded-opentype'),*/
-/*    url('../fonts/Vazir-Bold-FD-WOL.woff2') format('woff2'),*/
-/*    url('../fonts/Vazir-Bold-FD-WOL.woff2') format('woff'),*/
-/*    url('../fonts/Vazir-Bold-FD-WOL.woff2') format('truetype');*/
-/*    font-weight: bold;*/
-/*}*/
 @font-face {
     font-family: farsiDigit;
     src: url('../fonts/Vazir-Light-FD.woff');
@@ -67,6 +40,14 @@ body{
     padding: 0;
     direction: rtl;
     font-family: Vazir1;
+    letter-spacing: .5px;
+    height: 3000px;
+}
+a{
+    text-decoration: none;
+}
+span b{
+    margin-left: 4px;
 }
 .main{
     width: 100%;
@@ -90,26 +71,23 @@ body{
     /*height: 80px;*/
     display: flex;
     align-items: center;
-    font-size: 30px;
-
 }
 .flex-item0:nth-child(1){
-    font-size: 28px;
+    font-size: 2rem;
     color: #FCCD33;
     margin-right: 10px;
-    position: relative;
-    top: -2px;
-
 }
 .flex-item0:nth-child(2){
     color: #FCCD33;
-    font-size: 28px;
+    font-size: 2.25rem;
     margin-right: 5px;
 }
 .flex-item0:nth-child(3){
     margin-right: 50px;
-    font-size: 18px;
+    font-size: 1.15rem;
     color: white;
+    font-family: VazirThin;
+
 }
 .flex-container1{
     display: flex;
@@ -129,15 +107,17 @@ body{
 
 .flex-item1:nth-child(1){
     color: #FCCD33;
-    font-size: 18px;
+    font-size: 1.05rem;
+    font-family: VazirThin;
 }
 .flex-item1:nth-child(2){
-    font-family: Vazir1;
     width: 194px;
     height: 50px;
     background: #FCCD33;
     box-shadow: 0px 20px 25px rgba(252, 205, 51, 0.1);
     border: 1px solid #FCCD33;
+    font-family: VazirMedium;
+    font-size: 18px;
     border-radius: 52px;
     color: #292929;
 }
@@ -153,5 +133,43 @@ body{
 .farsiDigit{
     font-family: farsiDigit;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
