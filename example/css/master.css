@@ -86,7 +86,7 @@ span b{
 }
 .flex-item0:nth-child(3){
     margin-right: 50px;
-    font-size: 1.15rem;
+    font-size: 1rem;
     color: white;
     font-family: VazirThin;
 
@@ -145,6 +145,26 @@ span b{
     justify-content: space-between;
     margin-top: 80px;
 }
+.middleBarLeft{
+    width: 12%;
+    height: 100%;
+    border: 2px solid #8b114a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*start to create nav right menu***********************************************************/
 .rightBar{
     /*border: 2px solid #28a745;*/
     width: 250px;
@@ -153,24 +173,6 @@ span b{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-}
-.middleBar{
-    width: 100%;
-    height: 1000px;
-    /*border: 2px solid #3c23c8;*/
-    display: flex;
-    align-items: start;
-    justify-content: flex-end;
-}
-.middleBarRight{
-    width: 88%;
-    height: 100%;
-    border: 3px solid #c88c23;
-}
-.middleBarLeft{
-    width: 12%;
-    height: 100%;
-    border: 2px solid #8b114a;
 }
 .yellowRectangle{
     width: 100%;
@@ -235,6 +237,7 @@ span b{
 #btn button span{
     font-size: 17px;
 }
+/*end of right nav menu***************************************************************************/
 
 
 
@@ -251,8 +254,103 @@ span b{
 
 
 
+/**********************************design middle of main page**************************/
+.middleBar{
+    width: 100%;
+    height: 1000px;
+    border: 2px solid #3c23c8;
+    display: flex;
+    align-items: start;
+    justify-content: flex-end;
+    background: #1F1F1F;
+}
+.middleBarRight{
+    width: 88%;
+    height: 100%;
+    border: 3px solid #62c823;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.topOfTheMainMiddle{
+    /*border: 1px solid #FCCD33;*/
+    display: flex;
+    width: 850px;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 24px;
+    font-family: VazirThin;
+}
+.topOfTheMainMiddle span, h4{
+    color: #FCCD33;
+    font-weight: bold;
+    font-size: 20px;
+}
+.topOfTheMainMiddle h4{
+    position: relative;
+    top: 2px;
+}
+.MainMiddle{
+    width: 850px;
+    height: 80px;
+    /*border: 1px solid #bd2130;*/
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    background: #313131
+}
+.middleSubItem{
+    /*border: 1px solid #c142bf;*/
+    height: 100%;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    direction: ltr;
+    font-family: VazirMedium;
+    color: white;
 
+}
+.middleSubItem:nth-of-type(2){
+    align-items: center;
+    font-family: VazirMedium;
+    color: #FCCD33;
+    direction: rtl;
+}
+.middleSubItem div{
+    font-family: VazirThin;
+    font-size: 14px;
+    font-family: VazirThin;
+    color: #ADADAD
+}
 
+.middleSubItem:nth-of-type(5){
+    border-radius: 10px 0px 0px 10px;
+    background:  #282828;
+
+    align-items: center;
+    direction: rtl;
+    font-family: Vazir1;
+}
+.middleSubItem:nth-of-type(5) div:first-child{
+    color: #FCCD33;
+    font-weight: bold;
+}
+.middleSubItem:nth-of-type(3),.middleSubItem:nth-of-type(4){
+    color: #ADADAD;
+    font-size: 15px;
+    font-family: VazirThin;
+    align-items: flex-start;
+
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #44DE8B;
+    margin: 35px 10px;
+}
 
 
 
